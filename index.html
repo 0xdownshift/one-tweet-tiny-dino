@@ -1,0 +1,1 @@
+<canvas id="c"></canvas><script>c=document.getElementById("c").getContext("2d");s=9;[[2,4],[-1,5],[2,4,6],[-1,6],[-2,3],[0,5],[-1,4],[2,4]].forEach((a,i)=>(a[0]<0||i==5)&&c.fillRect(-a[0]*s,i*s,a[1]*s,s)||a.map(e=>c.fillRect(e*s,i*s,s,s)))</script>
